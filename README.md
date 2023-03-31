@@ -1,4 +1,4 @@
-This script connects to Cisco devices and pulls information using Netmiko library. It requires Python version 3.6 or higher and the installation of Netmiko library in the system.
+This script (cisco.py) connects to Cisco devices and pulls information using Netmiko library. It requires Python version 3.6 or higher and the installation of Netmiko library in the system.
 
 
 This script imports necessary libraries: 'getpass', 'openpyxl', 'netmiko' and 'datetime'. It loads an excel file 'Cisco.xlsx' and assigns the contents of 'Sheet1' to a variable named 'sheet'. Prompt for username and password using getpass. The script then iterates through each row in the sheet to create device_list for each device. The dictionaries created for each device in the device_list contains device_type, host, username, password and secret. 
