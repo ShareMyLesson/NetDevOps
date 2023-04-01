@@ -15,3 +15,23 @@ If the connection fails or an error occurs during run time, it prints out an err
 To use this script, install the required version of Python, necessary libraries (getpass, openpyxl and netmiko) and run the script. Update the Excel file with the necessary device information and provide the username and password when prompted. The script will create the output files with the information requested from each device.
 
 
+
+
+
+
+
+aruba.py:
+
+This Python script automates the retrieval of data from a network of HP Procurve switches. It prompts the user for a username and password, creates a list of devices to query, connects to each device, retrieves various pieces of information, and stores the output in a .txt file.
+
+The script will create a device list based on the IP addresses of the devices to be queried.
+
+For each device in the list, the script will connect to the device, retrieve information using several commands, and save the output to a .txt file.
+
+If there are any errors during the script's execution, they will be printed to the console.
+
+The output files will be saved in the same directory as the script.
+
+Note:
+This script assumes that all devices in the network have the same device type and login credentials. If this is not the case, the script would need to be modified to handle different device types and login credentials appropriately.
+
