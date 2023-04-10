@@ -1,4 +1,4 @@
-cisco.py:
+ciscov1.py:
 
 This script connects to Cisco devices and pulls information using Netmiko library. It requires Python version 3.6 or higher and the installation of Netmiko library in the system.
 
@@ -20,7 +20,7 @@ To use this script, install the required version of Python, necessary libraries 
 
 
 
-aruba.py:
+arubav1.py:
 
 This Python script automates the retrieval of data from a network of HP Procurve switches. It prompts the user for a username and password, creates a list of devices to query, connects to each device, retrieves various pieces of information, and stores the output in a .txt file.
 
